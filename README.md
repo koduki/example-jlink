@@ -26,6 +26,6 @@ Step2: link modules
 ------------
 
 ```bash
-$ jlink --compress=2 --module-path $JAVA_HOME/jmods:modules --add-modules apps --output my-app --launcher myapp=apps/cn.orz.pascal.app.MyApp 
-$ .my-app/bin/myapp
+$ jlink --compress=2 --module-path $JAVA_HOME/jmods:modules --add-modules apps --output dist/my-app --launcher myapp=apps/cn.orz.pascal.app.MyApp 
+$ ./dist/my-app/bin/myapp
 ```
